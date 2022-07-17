@@ -1,0 +1,41 @@
+h1{
+    color: blueviolet;
+    text-align: center;
+}
+
+div.contenedor{
+    width: 80%;
+    height: 20%;
+    overflow: auto;
+    margin: auto;
+    border: 3px dashed #a8eadc;
+}
+
+span{
+    font-weight: bolder;
+    font-style: italic;
+    font-size: large;
+    background-color: #a8eadc;
+    border: 1px solid #457b9d;
+    height: 50px;
+    padding: 15px;
+    display: inline-block;
+}
+
+.menu{
+    list-style: none;
+    text-align: center;
+}
+
+.menu li{
+    display: inline-block;
+    padding: 15px;
+    margin: 20px;
+    background-color:seagreen;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}

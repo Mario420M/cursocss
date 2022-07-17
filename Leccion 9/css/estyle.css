@@ -1,0 +1,35 @@
+h1{
+    color: brown;
+    text-align: center;
+}
+
+div.contenedor{
+    border: 3px dashed chartreuse;
+    width: 30%;
+    height: 100px;
+    overflow: auto;
+    float: left;
+}
+
+div.contenedor2{
+    border: 3px dashed black;
+    width: 30%;
+    height: 100px;
+    overflow: auto;
+    float: right;
+}
+
+div.contenedor3{
+    border: 3px dashed orange;
+    width: 30%;
+    height: 100px;
+    overflow: auto;
+    margin: auto;
+    clear: both;
+}
+
+div.contenedor4{
+    width: 100%;
+    overflow: auto;
+    margin: auto;
+}

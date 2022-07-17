@@ -1,0 +1,37 @@
+h1 {
+    color: #ca9bdd;
+    text-align: center;
+}
+
+div.contenedor {
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid chocolate;
+    padding: 15px;
+    color: #454545;
+    text-align: center;
+}
+
+div.contenedor p::selection{
+    color: red;
+    background-color: chartreuse;
+}
+
+div.contenedor p::first-line{
+    font-variant: small-caps;
+}
+
+div.contenedor p::first-letter{
+    color: violet;
+    font-size: 20px;
+
+}
+
+div.contenedor p::before{
+    content: "-" ;
+}
+
+div.contenedor p::after{
+    content: "999";
+}

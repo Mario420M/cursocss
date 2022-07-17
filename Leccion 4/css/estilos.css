@@ -1,0 +1,12 @@
+body{
+    background-color: blue;
+    background-image: url(/img/fondo.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+
+h1{
+    color: brown;
+    text-align: center;
+}

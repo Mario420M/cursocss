@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+    color: crimson;   
+}
+
+div{
+    padding: 10px;
+    margin: auto;
+    max-width: 400px;
+}
+
+.bi-file-earmark-music{
+    color: brown;
+    font-size: 3em;
+}
+
+.bi-bug{
+    color:darkmagenta;
+    font-size: 3em;
+}
+
+.casa{
+    color: yellow;
+    font-size: 2em;
+    vertical-align: bottom;
+}
+
+.ionic{
+    color:tomato;
+    font-size: 30px;
+}

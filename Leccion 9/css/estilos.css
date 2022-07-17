@@ -1,0 +1,48 @@
+h1{
+    color: darkgoldenrod;
+    text-align: center;
+}
+
+div.relativo{
+    position: relative;
+    width: 500px;
+    height: 300px;
+    top: 100px;
+    left: 300px;
+    border: 3px solid cadetblue;
+}
+
+
+
+div.absolute{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+   /* max-width: 400px;
+    margin: auto;*/
+    border: 3px solid chocolate;
+}
+
+div.sticky{
+    position: sticky;
+    top: 10px;
+    border: 3px solid blue;
+}
+
+div.index{
+    position: static;
+    top: 10px;
+    padding: 15px;
+    border: 3px solid greenyellow;
+    background-color: beige;
+}
+
+div.index2{
+    position: relative;
+    top: -9px;
+    left: 10px;
+    padding: 15px;
+    border: 3px solid blueviolet;
+    background-color: purple;
+    z-index: -10;
+}
